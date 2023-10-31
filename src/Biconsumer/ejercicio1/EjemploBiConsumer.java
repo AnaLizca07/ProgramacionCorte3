@@ -1,7 +1,5 @@
-package Biconsumer;
+package Biconsumer.ejercicio1;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.function.BiConsumer;
 
 public class EjemploBiConsumer {

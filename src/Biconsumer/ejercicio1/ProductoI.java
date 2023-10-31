@@ -1,13 +1,15 @@
-package Consumer;
+package Biconsumer.ejercicio1;
 
-public class Producto {
-
+public class ProductoI {
     private String nombre;
     private double precio;
 
-    public Producto(String nombre, double precio) {
+    private String tipoCategoria;
+
+    public ProductoI(String nombre, double precio, String tipoCategoria) {
         this.nombre = nombre;
         this.precio = precio;
+        this.tipoCategoria = tipoCategoria;
     }
 
     public String getNombre() {
@@ -26,11 +28,11 @@ public class Producto {
         this.precio = precio;
     }
 
-    @Override
-    public String toString() {
-        return "Consumer.Producto{" +
-                "nombre='" + nombre + '\'' +
-                ", precio=" + precio +
-                '}';
+    public String getTipoCategoria() {
+        return tipoCategoria;
+    }
+
+    public void setTipoCategoria(String tipoCategoria) {
+        this.tipoCategoria = tipoCategoria;
     }
 }

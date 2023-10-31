@@ -1,12 +1,11 @@
-package Biconsumer;
+package Function.ejemplo1;
 
-public class ProductoI {
-    private String nombre;
+public class ProductoII {
+    private  String nombre;
     private double precio;
-
     private String tipoCategoria;
 
-    public ProductoI(String nombre, double precio, String tipoCategoria) {
+    public ProductoII(String nombre, double precio, String tipoCategoria) {
         this.nombre = nombre;
         this.precio = precio;
         this.tipoCategoria = tipoCategoria;

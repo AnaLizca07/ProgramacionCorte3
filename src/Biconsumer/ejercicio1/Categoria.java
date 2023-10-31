@@ -1,4 +1,4 @@
-package Biconsumer;
+package Biconsumer.ejercicio1;
 
 public class Categoria {
     private String tipoCategoria;
