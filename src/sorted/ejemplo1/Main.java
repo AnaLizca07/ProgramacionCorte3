@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         List<Colores> coloresList = Arrays.asList(
                 new Colores("Azul",123),
-                new Colores("Blanco",000),
+                new Colores("Blanco",7000),
                 new Colores("Amarillo",986)
         );
 
